@@ -1,0 +1,22 @@
+name: paullyPy
+
+dependencies:
+  - python=3.6
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - statsmodels
+  - keras
+  - toolz
+  - dill
+  - partd
+  - matplotlib
+  - seaborn
+  - bokeh
+  - jupyter_client
+  - jupyter_core
+  - notebook
+  - sparkmagic
+  - pip:
+    - git+https://github.com/blaze/dask.git#egg=dask[complete]
